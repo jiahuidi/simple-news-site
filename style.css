@@ -4,3 +4,40 @@
     font-family: 'Dancing Script', cursive;
     text-align: center;
 }
+
+.articles-wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+.story {
+    border: solid 1px #333;
+    padding: 10px;
+}
+
+.quarter {
+    width: 25%;
+}
+
+.half {
+    width: 50%;
+}
+
+.story-title {
+    font-size: 30px;
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.story-text {
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.story-img {
+    width: 100%;
+    height: auto;
+}
+
